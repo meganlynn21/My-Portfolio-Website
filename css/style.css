@@ -472,6 +472,11 @@ header {
         padding-right: 60px;
         overflow-x: hidden;
     }
+
+
+    body {
+        position: relative;
+    }
 }
 
 
@@ -547,6 +552,7 @@ header {
         opacity 250ms linear;
     opacity: 20;
 }
+
 
 .link {
     text-decoration: none;
