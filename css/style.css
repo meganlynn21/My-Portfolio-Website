@@ -60,10 +60,9 @@ body {
 #canvas {
     left: 0;
     top: 0;
-    z-index: -6;
+    z-index: 0;
     width: 100vw;
     height: 100vh;
-    border: 2px solid red;
     position: absolute;
 }
 
@@ -109,6 +108,7 @@ strong {
     border-style: groove;
     border-width: 3px;
     border-color: var(--clr-accent);
+    position: relative;
 }
 
 
@@ -603,7 +603,6 @@ header {
     text-align: center;
     padding: 2.5em 0;
     font-size: var(--fs-h3);
-    cursor: pointer;
 }
 
 .footer a {
@@ -613,6 +612,8 @@ header {
 
 .footer__link {
     font-weight: var(--fw-bold);
+    position: relative;
+    cursor: pointer;
 }
 
 .footer__link:hover,
@@ -634,6 +635,8 @@ header {
 
 .social-list__item {
     margin: 0 .5em;
+    position: relative;
+    cursor: pointer;
 }
 
 .social-list__link {
