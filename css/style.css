@@ -469,7 +469,8 @@ header {
 @media(min-width: 350px) {
     .portfolio__item {
         text-align: center;
-        padding-right: 60px
+        padding-right: 60px;
+        overflow-x: hidden;
     }
 }
 
