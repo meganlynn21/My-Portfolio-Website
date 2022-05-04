@@ -367,6 +367,7 @@ header {
 .service p {
     font-family: var(--ff-secondary);
     font-size: 15px;
+    position: relative;
 }
 
 @media (min-width: 800px) {
@@ -571,6 +572,7 @@ header {
 .portfolio__item {
     overflow: hidden;
     text-decoration: none;
+    position: relative;
 }
 
 
