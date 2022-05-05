@@ -473,7 +473,6 @@ header {
         overflow-x: hidden;
     }
 
-
     body {
         position: relative;
     }
@@ -553,7 +552,6 @@ header {
     opacity: 20;
 }
 
-
 .link {
     text-decoration: none;
     color: var(--clr-accent);
@@ -574,6 +572,20 @@ header {
 .text6 {
     margin-left: 69%;
 }
+
+/* @media(min-width:500) {
+
+    .text1,
+    .text2,
+    .text3,
+    .text4,
+    .text5,
+    .text6 {
+        display: none !important;
+        visibility: hidden !important;
+        z-index: -100 !important;
+    }
+} */
 
 
 .portfolio__item {
