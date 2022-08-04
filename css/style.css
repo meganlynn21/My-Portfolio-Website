@@ -450,12 +450,21 @@ header {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
+@media(min-width: 1385px) {
+    .portfolio {
+        display: grid;
+        margin-left: 80px;
+        column-gap: 20px;
+        row-gap: 30px;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    }
+}
+
 
 @media(min-width: 200px) {
     .portfolio__item {
         text-align: center;
         padding-right: 50%;
-
     }
 }
 
