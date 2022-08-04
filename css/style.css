@@ -450,21 +450,21 @@ header {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
-@media(min-width: 1385px) {
+@media(min-width: 200px) and (max-width:280px) {
     .portfolio {
         display: grid;
-        margin-left: 80px;
+        margin: auto;
         column-gap: 20px;
         row-gap: 30px;
-        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
     }
 }
-
 
 @media(min-width: 200px) {
     .portfolio__item {
         text-align: center;
         padding-right: 50%;
+        margin: auto;
     }
 }
 
@@ -480,6 +480,16 @@ header {
         text-align: center;
         padding-right: 60px;
         overflow-x: hidden;
+    }
+
+    @media(min-width: 1065px) {
+        .portfolio {
+            display: grid;
+            margin-left: 80px;
+            column-gap: 20px;
+            row-gap: 30px;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        }
     }
 
     body {
