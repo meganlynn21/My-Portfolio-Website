@@ -355,6 +355,7 @@ header {
 .service {
     max-width: 500px;
     margin: 0 auto;
+    text-align: left;
 }
 
 .service p:hover {
@@ -390,7 +391,7 @@ header {
 
 .about-me__body {
     font-family: var(--ff-secondary);
-    text-align: center;
+    text-align: left;
 }
 
 .about-me__img {
