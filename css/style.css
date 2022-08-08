@@ -93,7 +93,7 @@ strong {
 
 .btn {
     display: inline-block;
-    padding: .5em 2em;
+    padding: .5em 3em;
     background: var(--clr-accent);
     color: var(--clr-dark);
     text-decoration: none;
@@ -111,8 +111,28 @@ strong {
     position: relative;
 }
 
+.btn2 {
+    display: inline-block;
+    padding: .5em 1em;
+    background: var(--clr-accent);
+    color: var(--clr-dark);
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: var(--fw-bold);
+    transition: transform 200ms ease-in-out;
+    margin: 15px;
+    border-radius: 8px;
+    border-style: groove;
+    border-width: 3px;
+    border-color: var(--clr-accent);
+    position: relative;
+}
 
-.btn:hover {
+
+.btn:hover,
+.btn2:hover {
     transform: scale(1.2);
 }
 
@@ -541,6 +561,11 @@ header {
 .item-header5:hover,
 .item-header6:hover {
     color: var(--clr-accent);
+}
+
+/* This gets rid of the blue outline that appears on mobile around portfolio images*/
+a {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 .portfolio__item {
